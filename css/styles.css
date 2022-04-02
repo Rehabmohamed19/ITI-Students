@@ -1,0 +1,441 @@
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.clear:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+/* Navbar */
+.nav,
+#navbar {
+  z-index: 1;
+  background-color: #2c3e50;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  padding: 1% 1%;
+  transition: 0.4s;
+}
+/* Navbar container */
+
+.nav .container {
+  width: 85%;
+  height: 16vh;
+  margin: 0 auto;
+}
+
+/* text of the left */
+
+.nav .container .txt1 {
+  font-weight: 300;
+  color: white;
+  float: left;
+  margin: 4% 0;
+}
+
+/* Container of options */
+.nav .container .menu {
+  float: right;
+  list-style-type: none;
+  width: 30vw;
+  padding: 0;
+  margin: 4% 0;
+}
+
+/* List of items */
+
+.items {
+    float: left;
+    margin: 0 3%;
+    width: 24%;
+    background-color: cadetblue;
+    padding: 2% 1%;
+    text-align: center;
+    border-radius: 0.25vw;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+}
+
+/* first banner */
+
+.first-banner {
+  margin-right: 0%;
+  width: 100%;
+  background-color: #1abc9c;
+  text-align: center;
+  padding-top: 30vh;
+  padding-bottom: 10vh;
+}
+
+/* boy's image */
+
+.first-banner img {
+  width: 17%;
+  margin: 2% 0;
+}
+
+/* text of first banner */
+
+.first-banner h2 {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 5vw;
+}
+
+/* lines and the star*/
+
+.first-banner .line-star {
+  width: 50%;
+  margin: 0% auto;
+}
+
+.first-banner i {
+  color: #fff;
+  font-size: 5vh;
+  padding: 0 2%;
+}
+
+.first-banner .line-star .line {
+  height: 0.7vh;
+  background-color: white;
+  border: none;
+  width: 21%;
+  display: inline-block;
+}
+
+/* first banner paragraph */
+
+.first-banner p {
+  color: white;
+  font-size: 4vh;
+  margin-top: 3%;
+}
+
+/* second banner */
+
+.portfolio {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10vh 0;
+}
+
+/* images of second banner  */
+
+.total {
+  width: 70%;
+  margin: 0 auto;
+  height: 40%;
+}
+.block-element {
+  float: left;
+  height: 71%;
+  width: 27%;
+  margin: 4% 2%;
+}
+.portfolio .total img {
+  width: 31%;
+  padding: 1.5% 0.5%;
+  border-radius: 3vh;
+}
+
+/* text of second banner */
+
+.portfolio h2 {
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 3.5vw;
+  margin-top: 0%;
+  font-weight: 600;
+}
+
+/* lines and the star */
+
+.portfolio .line-star {
+  width: 50%;
+  margin: 0 auto 1% auto;
+}
+.portfolio .line-star .line {
+  height: 0.7vh;
+  background-color: #2c3e50;
+  border: none;
+  width: 24%;
+  display: inline-block;
+}
+.portfolio i {
+  color: #2c3e50;
+  font-size: 5vh;
+  padding: 0 2%;
+}
+
+/* third banner */
+
+.about {
+  width: 100%;
+  padding: 10vh 0;
+  background-color: #1abc9c;
+  text-align: center;
+}
+
+/* text of third banner */
+
+.about h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 3.5vw;
+  margin-top: 0%;
+  /* font-size: 8vh; */
+  font-weight: 600;
+}
+
+/* lines and the star */
+
+.about .line-star {
+  width: 50%;
+  margin: 0 auto;
+}
+.about .line-star .line {
+  margin-top: 8%;
+  height: 0.7vh;
+  background-color: #ffffff;
+  border: none;
+  width: 24%;
+  display: inline-block;
+}
+.about i {
+  color: #ffffff;
+  font-size: 5vh;
+  padding: 0 2%;
+}
+
+/* conatiner of third banner's text */
+
+.about .float-container {
+  width: 70%;
+  padding: 5%;
+  margin: 0 auto;
+} 
+
+/* text of third banner */
+
+.about .float-container .text {
+  color: white;
+  text-align: justify;
+  font-size: 3vh;
+  width: 40%;
+}
+
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+
+/* forth banner */
+
+.contact {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10vh 0;
+}
+
+/* forth banner text */
+
+.contact h2 {
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 3.5vw;
+  margin-top: 0%;
+  font-weight: 600;
+}
+
+/* lines and the star */
+
+.contact .line-star {
+  width: 50%;
+  margin: 0 auto;
+}
+.contact .line-star .line {
+  margin-top: 8%;
+  height: 0.7vh;
+  background-color: #2c3e50;
+  border: none;
+  width: 24%;
+  display: inline-block;
+}
+.contact i {
+  color: #2c3e50;
+  font-size: 5vh;
+  padding: 0 2%;
+}
+
+/* form container */
+
+.contact .form-container {
+  width: 45%;
+  margin: 0 auto;
+}
+
+/* error symbol*/
+
+.err {
+  display: none;
+  color: rgb(238, 51, 51);
+  float: right;
+  font-size: 1vw;
+  border-radius: 50%;
+  width: 0.5vw;
+  height: 0.5vw;
+  padding: 1% 1%;
+  background: #fff;
+  border: 2px solid rgb(236, 31, 31);
+}
+
+/* form */
+
+form {
+  margin: 7% auto;
+}
+
+/* label */
+
+label {
+  font-size: 1.5vw;
+  float: left;
+  color: rgb(180, 179, 179);
+}
+
+/* input bars */
+
+input {
+  width: 100%;
+  padding: 2.5% 0%;
+  margin: 2% 0;
+  border: white;
+  display: inline-block;
+}
+
+/* submit */
+
+input[type="submit"] {
+  width: 14%;
+  float: left;
+  background-color: #1dcaa8;
+  color: white;
+  padding: 2% 1%;
+  font-size: 1.3vw;
+  margin: 1% 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* error message */
+
+.error-msg {
+  /* margin-bottom: 2%; */
+  color: red;
+  text-align: start;
+  /* float: left; */
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #2c3e50;
+  width: 100%;
+  padding: 12vh 0;
+}
+
+/* footer text */
+
+.footer h3 {
+  padding: 1.5vh;
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+}
+.footer p {
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+  text-align: center;
+}
+
+/* sections container */
+
+.footer .footer-container {
+  width: 80%;
+  margin: -4vh auto;
+}
+
+/* footer's first section */
+
+.footer .location {
+  float: left;
+}
+.footer .location p {
+  width: 13vw;
+}
+
+/* footer's second section */
+
+.footer .web {
+  float: left;
+  margin-left: 22%;
+  /* float: left;
+    margin-left: 21%;
+    margin-top: -3vh; */
+}
+.footer .web i {
+  font-size: 1.4vw;
+  border-radius: 50%;
+  width: 1.1vw;
+  margin: 2vh 0.4vh;
+  padding: 3.5% 5.5%;
+  font-weight: 400;
+  color: white;
+  border: 1px solid white;
+}
+
+/* footer's third section */
+
+.freelance {
+  float: right;
+}
+.footer .freelance p {
+  /* width: 21vw;
+  font-size: 0.9vw;
+  padding-top: 4%; */
+  width: 24vw;
+    font-size: 1.1vw;
+    padding-top: 4%;
+}
+
+/* copy rights */
+.copy-rights {
+  padding: 2vh 0;
+  background-color: #112235;
+}
+.copy-rights p {
+  font-size: 1vw;
+  margin: 0 43%;
+  color: white;
+}

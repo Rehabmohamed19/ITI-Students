@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/506e36437b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="nav" id="navbar">
+      <div class="container">
+    <!-- text of the left -->
+        <div class="txt1">
+          <h1>ITI STUDENTS</h1>
+        </div>
+    <!-- container of options -->
+        <ul class="menu">
+          <li class="items"><a href="javascript:void(0)" data-target="banner2" onClick="customScroll(this.dataset.target)">PORTFOLIO</a></li>
+          <li class="items"><a href="javascript:void(0)" data-target="banner3" onClick="customScroll(this.dataset.target)">ABOUT</a></li>
+          <li class="items"><a href="javascript:void(0)" data-target="banner4" onClick="customScroll(this.dataset.target)">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end of nav bar -->
+    <!-- first banner -->
+
+    <section id="banner1">
+      <div class="first-banner">
+    <!-- boy's image -->
+
+        <img src="img/avataaars.svg" alt="boy" />
+
+    <!-- text of first banner -->
+        <h2>ITI STUDENTS</h2>
+
+    <!-- lines and the star -->
+
+        <div class="line-star">
+          <hr class="line" />
+          <i class="fa fa-star"></i>
+          <hr class="line" />
+        </div>
+
+    <!-- first banner paragraph -->
+
+        <p>Front end technology project</p>
+      </div>
+    </section>
+    <!-- end of fisrt banner -->
+    <!-- second banner -->
+    <section id="banner2">
+    
+      <div class="portfolio">
+    <!-- text of second banner -->
+        <h2>PORTFOLIO</h2>
+
+    <!-- lines and the star -->
+        <div class="line-star">
+          <hr class="line" />
+          <i class="fa fa-star"></i>
+          <hr class="line" />
+        </div>
+
+    <!-- images of second banner -->
+        <div class="total">
+          <img src="img/portfolio/cabin.png" alt="cabin" />
+          <img src="img/portfolio/cake.png" alt="cake" />
+          <img src="img/portfolio/circus.png" alt="circus" />
+          <img src="img/portfolio/game.png" alt="game" />
+          <img src="img/portfolio/safe.png" alt="safe" />
+          <img src="img/portfolio/submarine.png" alt="submarine" />
+        </div>
+      </div>
+    </section>
+    <!-- end of second banner -->
+    <!-- third banner -->
+
+    <section id="banner3">
+      <div class="about">
+    <!-- text of third banner -->
+        <h2>ABOUT</h2>
+    <!-- lines and the star -->
+        <div class="line-star">
+          <hr class="line" />
+          <i class="fa fa-star"></i>
+          <hr class="line" />
+        </div>
+        <div class="float-container clear">
+    <!-- text of third banner -->
+          <p class="text float_left">
+            this template is a iti theme created by iti students. the complete
+            source files including HTML,CSS and JavaScript as well as optinal
+            SASS stylesheet for easy customization
+          </p>
+          <p class="text float_right">
+            you can create your custom avatar for the masthead, change the icons
+            in the dividers, and add your email address to the contact form to
+            make it fully functionally
+          </p>
+        </div>
+      </div>
+    <!-- end of third banner -->
+    </section>
+    <section id="banner4">
+      <div class="contact">
+    <!-- forth banner text -->
+        <h2>CONTACT ME</h2>
+    <!-- lines and the star -->
+
+        <div class="line-star">
+          <hr class="line" />
+          <i class="fa fa-star"></i>
+          <hr class="line" />
+        </div>
+        <div class="form-container">
+    <!-- <form> -->
+          <form action="">
+            <div class="row">
+                <label for="name">Full Name</label>
+                <p class="err">i</p>
+                <input type="text" id="name" class="inputname" name="name" />
+                <p class="error-msg"></p>
+            </div>
+
+            <div class="row">
+            <label for="email">Email address</label>
+            <p class="err">i</p>
+            <input type="text" id="email" name="email" />
+            <p class="error-msg"></p>
+            </div>
+
+            <div class="row">
+            <label for="number">Phone number</label>
+            <p class="err">i</p>
+            <input type="number" id="number" name="number" />
+            <p class="error-msg"></p>
+            </div>
+
+            <div class="row">
+                <label for="text">Message</label>
+                <p class="err">i</p>
+                <input type="text" id="message" name="text" />
+                <p class="error-msg"></p>
+            </div>
+      <!-- submit -->
+            <input type="submit" value="Sent" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- end of forth banner -->
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer-container">
+    <!-- footer's first section -->
+        <div class="location">
+          <h3>LOCATION</h3>
+          <p>2215 John Daniel Drive Clark, MO 65243</p>
+        </div>
+
+    <!-- footer's second section -->
+
+        <div class="web">
+          <h3>AROUND THE WEB</h3>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-dribbble"></i>
+        </div>
+
+    <!-- footer's third section -->
+
+        <div class="freelance">
+          <h3>ABOUT FREELANCER</h3>
+          <p>
+            Freelance is a free to use, MIT licensed iti theme create by iti
+            students.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- copy rights -->
+    <div class="copy-rights">
+      <p>Copyright your website 2021</p>
+    </div>
+
+    <script src="javascript/jquery-3.6.0.min.js"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
